@@ -135,6 +135,8 @@ switch(day){
     case "sunday" :
         console.log("it's a weekend");
         break;
+    default :
+    console.log("wrong day");
 } 
 
 let Day = 1;

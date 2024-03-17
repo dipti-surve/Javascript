@@ -29,6 +29,6 @@ let firstname = prompt("please enter your firstname");//prompt displays a doialo
 let lastname = prompt("please enter your lastname");
 let msg = `Welcome ${firstname} ${lastname} to the dipti's palette!`;
 alert(msg);
-///////////////////
-// console.error("this is an error message"); //to print error message
-// console.warn("this is a warning message!");  //to print warning message
+///////////////////////
+console.error("this is an error message"); //to print error message
+console.warn("this is a warning message!");  //to print warning message
