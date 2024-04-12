@@ -1,0 +1,125 @@
+**Variables**
+
+**Data Types**
+-Number
+-Boolean
+-String
+-Bigint
+-Undefined
+-Null
+-Object
+
+**operators**
+-Assignment
+-Unary
+-comparison
+-Logical
+
+
+**let,const,var Keywords**
+
+**Keywords**
+-break
+-return
+-this
+
+**Others**
+-NaN
+-Templar=te Literals (backticks ``)
+-truthy falsy
+-Scope -> global, functional, lexical,block
+
+
+**identifier rules**
+
+
+**String**
+-string Indices
+* Methods
+1.Trim
+2.ToUpperCase
+3.ToLowerCase
+4.indexOf
+5.slice
+6.Replace
+7.Repeat
+
+**Statements**
+-conditional
+-if 
+-else if
+-if-else
+-nested if-else
+-switch-case 
+
+**Alert & prompts**
+
+**Arrays**
+-Nested Arrays
+-constant Arrays
+* Methods:
+1.indexOf
+2.includes
+3.Concatenation
+4.reverse
+5.slice
+6.splice
+7.sort
+8.forEach
+9.map
+10.filter
+11.every
+12.some
+13.Reduce
+
+
+**Loops**
+-for loops
+-nested for loops
+-while loops
+-for-of loops
+-nested for-of loops
+-loops with arrays
+-loops with nested Arrays
+
+**Object Literals**
+-Get values
+-conversion in get values
+-Add/Update Values
+-Delete values
+-Nested objects
+-Array of objects
+
+**Math Object**
+-absolute
+-Random
+-floor
+-ceil
+
+**Functions in JS**
+-functions with arguments
+-function expressions
+-Higher Order Function
+-Higher Order function (returns)
+
+**Arrow functions**
+-implicit return 
+-this with arrow function
+
+
+**Methods**
+
+**Try & Catch**
+
+**Set TimeOut function**
+**Set Interval function**
+
+
+
+
+
+
+
+
+
+

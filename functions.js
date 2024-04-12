@@ -191,3 +191,80 @@ function oddOrEvenFactory(request){
 let request = "odd";
 let func = oddOrEvenFactory(request);
 func(2);
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Default Parameters
+//giving a default value to the arguments
+// function func(a, b=2) {
+//     //do  something
+// }
+//we can make a single  parameter as default value (a = 4), or second parameter as a default value(a, b = 6), but we cannot passs default value on first parameter in case of two parameters 
+function sum(a, b = 3){    //in case e pass only one value then it will ve a value of a , and by default 3 will be a default value of b. 
+    return a+b;
+}
+console.log(sum(5));  //if we pass 2 parameters for  a and b  then b = 3 will not work , but if we pass single value then it will work as a default value of b
+
+
+////////////////////////////////////////////////////////////////////////////////////
+//Spread : Expands an iterable into multiple values
+// function func(...arr){
+//     //do something
+// }
+
+let arr =[1,5,9,3,7,1,6,7,4,3,6,6,0];
+console.log(Math.min(...arr));   //it will go through the each value of an array
+///
+console.log(..."ArtWithDipti");
+
+//spreadwith Array literals
+let chars = [..."helloworld"];
+console.log(chars);   //string characters will individually devide in characters
+///
+let Arr = [1,2,3,6,5,4,8];
+let newArr = [...Arr];    //copy of Arr
+console.log(newArr);
+///
+let odd =[1,3,5,7,9];
+let even =[2,4,6,8,10];
+let mix = [...even, ...odd];
+
+//spread with object literals
+let data = {
+    email: "diptisurve@gmail.com",
+    password: "password09"
+}
+let dataCopy = {...data, id:123, country:"India"};  //we can add additional details
+console.log(dataCopy);
+
+//spreading array in object
+
+let integers = [1,8,5,7,6,9,4,5];
+let obj = {...integers};     //it will get index no as a key nd array elements as a value in key value pair
+console.log(obj);
+
+let obj1 ={..."helloworld"};
+console.log(obj1); 
+
+
+//////////////////////////////////////////////////////////////////
+//Rest:Allows a function to take an indefinite numer of arguments and bundke them=n in array
+
+function min(msg, ...args){     //adding additional msg
+    console.log(msg);
+    return args.reduce((min, el)=>{
+        if(min<el){
+            return min;
+        }else{
+            return el;
+        }
+    })
+}
+console.log(min("hello",8,9,5,2,7,6,3));
+//inbuilt arguments array
+// function min(){
+// console.log(arguments);     //collection of data , we cant use methods on argumments
+// }
+// min();

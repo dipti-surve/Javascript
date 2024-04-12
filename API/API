@@ -1,0 +1,46 @@
+API(Application programming Interface) is a set of commands,functions,protocols and objects that programmers can use to create software or interact with an external system.
+
+**Endpoints**
+-endpoints are specific URLs (Uniform Resource Locators) that are used to interact with a particular part of an API.
+-endpoints are the different URLs provided by an API that you can access to perform various actions or retrieve specific information.
+-example:   https://jsonplaceholder.typicode.com/todos/1
+
+**Path**
+-This is the part of the URL that comes after the domain name (and port number, if specified). It specifies the specific resource or functionality you want to access within the API.
+For example:
+/users: This could be a path to access user-related information or functionality.
+/products: This could be a path to access product-related information or functionality.
+https://sv443.net/jokeapi/v2/joke/Programming  => in this url "/Programming"  is a path  
+
+
+**Parameter**
+https://sv443.net/jokeapi/v2/joke/Programming?contains=debugging  => in this url "contains=debugging" is a parameter. parameter comes after the questionmark
+
+
+**API Testing Tools**
+Postman
+hoppscoch
+
+**Status code**
+200 ->OK
+404 ->Not found   
+400 ->Bad request
+500 ->Internal server error
+
+**Add Information in URL**
+*Query string* 
+https://www.google.com/Search?q=harry+potter
+?name=shraddha&marks=95
+
+*Adding variable*
+:id or :num or :q or {{id}} or <id>   //it means that id is a variable and we should pass a value in this variable like:-
+https://api.potterdb.com/v1/movies/:id      it means we have to replace with value of id like:-  https://api.potterdb.com/v1/movies/2b9c2188-0961-491b-916e-43d0ec3d0948
+
+
+
+**HttP Headers**
+-apply additional imformation in req and res
+*Request Headers*
+-there is a data alog with our req
+
+*Response Headers*
