@@ -106,6 +106,7 @@ console.log(arrayAverage(arr));
 
 
 
+
 let isEven = (n) =>{
     if(n%2==0){
         console.log(`${n} is an even number`);

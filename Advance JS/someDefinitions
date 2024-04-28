@@ -1,0 +1,14 @@
+//call stack is a data structure that tracks the function calls.The call stack works on the Last In, First Out (LIFO) principle.
+//stack frame
+
+
+//breakpoints
+//A breakpoint is a point of code where the debugger will automatically pause the JavaScript execution.
+
+//JS is single Threaded language
+//to avoid the singlethreaded nature ,we callbacks exists
+
+//Syncronous nature: tasks of a program are executed sequentially one at a time. 
+//asyncronous nature: allowing the program to continue running while waiting for certain tasks to complete. 
+
+//callbacks nesting => callback hell  -> to avoid  -> promises, async and await
